@@ -1,0 +1,31 @@
+.header {
+  font-size: 20px;
+  margin: 80px 120px 0 120px;
+  width: 500px;
+}
+
+.header h1 {
+  color: #feb170;
+  font-size: 60px;
+}
+
+.header h2 {
+  color: #91aa9d;
+  font-size: 36px;
+}
+
+.header h1,
+.header h2,
+.header p {
+  margin-top: 20px;
+}
+
+.header p:last-child {
+  color: #c7c7c7;
+  letter-spacing: 1.2px;
+  line-height: 26px;
+}
+
+.header span {
+  color: #feb170;
+}
