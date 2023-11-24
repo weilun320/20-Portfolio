@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #193441;
+  color: #fcfff5;
+}
+
+.color-line {
+  position: relative;
+}
+
+.color-line::after {
+  background-color: #feb170;
+  bottom: -3px;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transition: 0.3s;
+  width: 0;
+}
+
+.color-line:hover {
+  color: #feb170;
+}
+
+.color-line:hover::after {
+  width: 100%;
+}
+
+.theme-button {
+  background-color: transparent;
+  border: 2px solid #feb170;
+  border-radius: 10px;
+  color: #feb170 !important;
+  padding: 15px;
+  transition: all 0.25s ease;
+}
+
+.theme-button:hover {
+  background-color: #feb170;
+  color: #193441 !important;
+}
