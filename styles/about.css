@@ -14,17 +14,12 @@
 }
 
 .about-details-container {
+  color: var(--secondary);
   flex: 1;
   padding: 1rem 0 1rem 4rem;
 }
 
-.about-title {
-  color: var(--title);
-  font-size: 48px;
-}
-
 .about-description {
-  color: var(--text);
   font-size: 16px;
   line-height: 1.5rem;
   margin-top: 1rem;
@@ -32,6 +27,7 @@
 }
 
 .tab-title {
+  color: var(--text);
   display: flex;
   font-size: 18px;
   margin: 20px 0 30px 0;
@@ -39,7 +35,7 @@
 
 .tab-title > .highlight-line:hover {
   background-size: 50% 2.5px;
-  color: var(--secondary);
+  color: var(--text);
 }
 
 .title {
@@ -52,7 +48,6 @@
 }
 
 .tab-content {
-  color: var(--text);
   display: none;
 }
 
@@ -60,31 +55,6 @@
   display: block;
 }
 
-#skills {
-  padding-left: 20px;
-}
-
-.tab-item {
-  margin-bottom: 10px;
-}
-
-.tab-item::marker {
-  color: var(--primary);
-}
-
-.content-title {
-  font-size: 22px;
-}
-
-.content-period,
-.content-certificate-link {
-  margin: 10px 0 30px 0;
-}
-
-#courses .content-period {
-  margin: 10px 0;
-}
-
-.location-icon {
-  margin-left: 40px;
+.content-certificate-link a {
+  color: var(--text);
 }

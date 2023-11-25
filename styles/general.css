@@ -1,8 +1,9 @@
 :root {
   --primary: #feb170;
-  --secondary: #fcfff5;
+  --secondary: #c7c7c7;
+  --tertiary: #3e606f;
   --title: #e8d3a6;
-  --text: #c7c7c7;
+  --text: #fcfff5;
 }
 
 * {
@@ -14,7 +15,7 @@
 
 body {
   background-color: #193441;
-  color: var(--secondary);
+  color: var(--text);
   margin-bottom: 1000px;
 }
 
@@ -50,6 +51,37 @@ body {
 }
 
 .main {
-  margin: 30px auto;
-  padding: 72px 120px;
+  margin: 0 auto;
+  padding: 32px 120px;
+}
+
+.section {
+  margin: 30px 0;
+  padding: 40px 0;
+}
+
+.section-title {
+  color: var(--title);
+  font-size: 48px;
+}
+
+.content-title {
+  font-size: 22px;
+}
+
+.content-period-location-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 30px 0;
+}
+
+.list-item {
+  color: var(--text);
+  margin-bottom: 14px;
+  padding-left: 10px;
+}
+
+.list-item::marker {
+  color: var(--primary);
 }
