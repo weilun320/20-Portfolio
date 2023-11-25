@@ -10,6 +10,7 @@
   <link href="styles/header.css" rel="stylesheet" type="text/css" />
   <link href="styles/about.css" rel="stylesheet" type="text/css" />
   <link href="styles/experience.css" rel="stylesheet" type="text/css" />
+  <link href="styles/work.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         <li class="nav-item"><a class="nav-link highlight-line" href="#">Experience</a></li>
         <li class="nav-item"><a class="nav-link highlight-line" href="#">Portfolio</a></li>
         <li class="nav-item"><a class="nav-link highlight-line" href="#">Contact</a></li>
-        <li class="nav-item"><a class="nav-link theme-button" href="/assets/Wei Lun Resume.pdf"
+        <li class="nav-item"><a class="nav-link theme-button" href="/assets/documents/Wei Lun Resume.pdf"
             target="_blank">Resume</a></li>
       </ul>
     </div>
@@ -39,7 +40,7 @@
         learning and improving my tech skills and knowledge to stay up to date with latest technologies. I enjoy turning
         ideas into code and solving problems. My goal is to be a <span class="theme-color highlight-line">Full Stack
           Developer</span> and I am excited to contribute my programming abilities to your success.</p>
-      <div class="header-button-container">
+      <div class="button-container">
         <a class="nav-link theme-button" href="#">Contact Me!</a>
       </div>
     </div>
@@ -48,7 +49,7 @@
   <main class="main">
     <section class="section" id="about">
       <div class="about-image-container">
-        <img alt="Wei Lun" class="about-image" src="assets/Wei Lun.jpg">
+        <img alt="Wei Lun" class="about-image" src="assets/images/Wei Lun.jpg">
       </div>
       <div class="about-details-container">
         <h2 class="section-title">About Me</h2>
@@ -75,6 +76,7 @@
             <li class="list-item">PHP</li>
             <li class="list-item">Python</li>
             <li class="list-item">MySQL</li>
+            <li class="list-item">Flask</li>
           </ul>
         </div>
         <div class="tab-content" id="education">
@@ -108,7 +110,7 @@
                 <path
                   d="M320 464c8.8 0 16-7.2 16-16V160H256c-17.7 0-32-14.3-32-32V48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H320zM0 64C0 28.7 28.7 0 64 0H229.5c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64z"
                   fill="#feb170" />
-              </svg> <a class="nav-link" href="assets/CS50x.pdf" target="_blank"> Certificate of Completion</a></p>
+              </svg> <a class="nav-link" href="assets/documents/CS50x.pdf" target="_blank"> Certificate of Completion</a></p>
           </div>
           <p class="content-title"><span class="theme-color highlight-line">CS50's Introduction to Programming with
               Python</span> by Harvard University</p>
@@ -119,7 +121,7 @@
                 <path
                   d="M320 464c8.8 0 16-7.2 16-16V160H256c-17.7 0-32-14.3-32-32V48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H320zM0 64C0 28.7 28.7 0 64 0H229.5c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64z"
                   fill="#feb170" />
-              </svg> <a class="nav-link" href="assets/CS50P.pdf" target="_blank"> Certificate of Completion</a></p>
+              </svg> <a class="nav-link" href="assets/documents/CS50P.pdf" target="_blank"> Certificate of Completion</a></p>
           </div>
         </div>
       </div>
@@ -170,6 +172,64 @@
             <li class="list-item">Enhanced UI of existing developer's hub</li>
           </ul>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <h2 class="section-title">My Work</h2>
+      <div class="work-container">
+        <div class="work-card">
+          <img alt="Youtube clone" src="assets/images/youtube-clone.png">
+          <div class="work-content">
+            <p class="work-content-title">Youtube Clone</p>
+            <p>A Youtube homepage clone on learning basic flex, grid, hover tooltip, responsive page</p>
+            <ul class="tag">
+              <li class="tag-item">HTML</li>
+              <li class="tag-item">CSS</li>
+            </ul>
+            <a class="nav-item link-button" href="https://weilun320.github.io/Youtube-clone/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="#feb170"/></svg></a>
+          </div>
+        </div>
+        <div class="work-card">
+          <img alt="Rock-paper-scissors game" src="assets/images/rock-paper-scissors-game.png"><div class="work-content">
+            <p class="work-content-title">Rock-Paper-Scissors Game</p>
+            <p>A Rock-paper-scissors game on learning localStorage, setInterval</p>
+            <ul class="tag">
+              <li class="tag-item">HTML</li>
+              <li class="tag-item">CSS</li>
+              <li class="tag-item">JavaScript</li>
+            </ul>
+            <a class="nav-item link-button" href="https://weilun320.github.io/Rock-Paper-Scissors-Game/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="#feb170"/></svg></a>
+          </div>
+        </div>
+        <div class="work-card">
+          <img alt="Airbnb clone" src="assets/images/airbnb-clone.png"><div class="work-content">
+            <p class="work-content-title">Airbnb Clone</p>
+            <p>An Airbnb homepage clone on learning Tailwind CSS</p>
+            <ul class="tag">
+              <li class="tag-item">HTML</li>
+              <li class="tag-item">Tailwind CSS</li>
+            </ul>
+            <a class="nav-item link-button" href="https://weilun320.github.io/Airbnb-clone-with-Tailwind-CSS/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="#feb170"/></svg></a>
+          </div>
+        </div>
+        <div class="work-card">
+          <img alt="Mastermind Game" src="assets/images/mastermind-game.png"><div class="work-content">
+            <p class="work-content-title">Mastermind Game</p>
+            <p>A Mastermind game built for CS50 final project using Python, Flask, jQuery</p>
+            <ul class="tag">
+              <li class="tag-item">HTML</li>
+              <li class="tag-item">CSS</li>
+              <li class="tag-item">jQuery</li>
+              <li class="tag-item">Python</li>
+              <li class="tag-item">Flask</li>
+            </ul>
+            <a class="nav-item link-button" href="https://www.youtube.com/watch?v=kRCyFzgw_Xg" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z" fill="#feb170"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="button-container">
+        <a class="nav-link theme-button" href="https://github.com/weilun320" target="_blank">See more</a>
       </div>
     </section>
   </main>
