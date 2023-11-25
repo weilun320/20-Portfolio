@@ -1,0 +1,90 @@
+#about {
+  display: flex;
+}
+
+.about-image-container {
+  width: 40%;
+}
+
+.about-image {
+  border-radius: 12px;
+  box-shadow: 0 0 10px #fff;
+  object-fit: contain;
+  width: 100%;
+}
+
+.about-details-container {
+  flex: 1;
+  padding: 1rem 0 1rem 4rem;
+}
+
+.about-title {
+  color: var(--title);
+  font-size: 48px;
+}
+
+.about-description {
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  word-spacing: 1px;
+}
+
+.tab-title {
+  display: flex;
+  font-size: 18px;
+  margin: 20px 0 30px 0;
+}
+
+.tab-title > .highlight-line:hover {
+  background-size: 50% 2.5px;
+  color: var(--secondary);
+}
+
+.title {
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.title.title-active {
+  background-size: 50% 2.5px;
+}
+
+.tab-content {
+  color: var(--text);
+  display: none;
+}
+
+.content-active {
+  display: block;
+}
+
+#skills {
+  padding-left: 20px;
+}
+
+.tab-item {
+  margin-bottom: 10px;
+}
+
+.tab-item::marker {
+  color: var(--primary);
+}
+
+.content-title {
+  font-size: 22px;
+}
+
+.content-period,
+.content-certificate-link {
+  margin: 10px 0 30px 0;
+}
+
+#courses .content-period {
+  margin: 10px 0;
+}
+
+.location-icon {
+  margin-left: 40px;
+}
