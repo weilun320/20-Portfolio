@@ -1,11 +1,21 @@
 .header {
   font-size: 20px;
-  margin: 40px 120px 0 120px;
-  width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-container {
+  margin: 0 120px;
+  padding: 80px 0;
+  width: 45%;
+}
+
+.header-greeting {
+  font-weight: bold;
 }
 
 .header-title {
-  color: #feb170;
+  color: var(--title);
   font-size: 60px;
 }
 
@@ -15,9 +25,9 @@
 }
 
 .header-description {
-  color: #c7c7c7;
-  letter-spacing: 1.2px;
+  color: var(--text);
   line-height: 26px;
+  word-spacing: 1px;
 }
 
 .header-title,
@@ -26,10 +36,6 @@
   margin-top: 20px;
 }
 
-.header span {
-  color: #feb170;
-}
-
-.header div {
+.header-button-container {
   margin-top: 40px;
 }

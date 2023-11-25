@@ -1,3 +1,10 @@
+:root {
+  --primary: #feb170;
+  --secondary: #fcfff5;
+  --title: #e8d3a6;
+  --text: #c7c7c7;
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -7,42 +14,42 @@
 
 body {
   background-color: #193441;
-  color: #fcfff5;
+  color: var(--secondary);
+  margin-bottom: 1000px;
 }
 
-.color-line {
-  position: relative;
+.highlight-line {
+  background-image: linear-gradient(var(--primary), var(--primary));
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 0;
+  transition: background-size 0.2s ease-in-out;
 }
 
-.color-line::after {
-  background-color: #feb170;
-  bottom: -3px;
-  content: "";
-  height: 3px;
-  left: 0;
-  position: absolute;
-  transition: 0.3s;
-  width: 0;
+.highlight-line:hover {
+  background-size: 100% 2.5px;
+  color: var(--primary);
 }
 
-.color-line:hover {
-  color: #feb170;
-}
-
-.color-line:hover::after {
-  width: 100%;
+.theme-color {
+  color: var(--primary) !important;
 }
 
 .theme-button {
   background-color: transparent;
-  border: 2px solid #feb170;
+  border: 2px solid var(--primary);
   border-radius: 10px;
-  color: #feb170 !important;
+  color: var(--primary) !important;
   padding: 15px;
   transition: all 0.25s ease;
 }
 
 .theme-button:hover {
-  background-color: #feb170;
+  background-color: var(--primary);
   color: #193441 !important;
+}
+
+.main {
+  margin: 30px auto;
+  padding: 72px 120px;
 }
