@@ -1,0 +1,18 @@
+.experience-container {
+  display: grid;
+  gap: 20px 40px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 4rem;
+}
+
+.experience-card {
+  background-color: var(--tertiary);
+  border-radius: 12px;
+  color: var(--secondary);
+  padding: 30px 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.experience-card:hover {
+  transform: scale(105%);
+}
