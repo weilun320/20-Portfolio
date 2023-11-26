@@ -36,16 +36,23 @@ body {
 }
 
 .theme-button {
-  background-color: transparent;
+  background-color: #193441;
   border: 2px solid var(--primary);
   border-radius: 10px;
-  color: var(--primary) !important;
+  cursor: pointer;
   padding: 15px;
   transition: all 0.25s ease;
 }
 
+.theme-button a {
+  color: var(--primary);
+}
+
 .theme-button:hover {
   background-color: var(--primary);
+}
+
+.theme-button:hover a {
   color: #193441 !important;
 }
 

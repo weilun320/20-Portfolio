@@ -13,6 +13,7 @@
   <link href="styles/work.css" rel="stylesheet" type="text/css" />
   <link href="styles/contact.css" rel="stylesheet" type="text/css" />
   <link href="styles/footer.css" rel="stylesheet" type="text/css" />
+  <link href="styles/responsive.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -20,17 +21,19 @@
     <a class="nav-logo" href="#">
       <span>W</span>ei <span>L</span>un
     </a>
-    <div class="nav">
+    <div class="nav" id="side-menu">
       <ul>
         <li class="nav-item"><a class="nav-link highlight-line" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link highlight-line" href="#">About</a></li>
         <li class="nav-item"><a class="nav-link highlight-line" href="#">Experience</a></li>
         <li class="nav-item"><a class="nav-link highlight-line" href="#">Portfolio</a></li>
         <li class="nav-item"><a class="nav-link highlight-line" href="#">Contact</a></li>
-        <li class="nav-item"><a class="nav-link theme-button" href="/assets/documents/Wei Lun Resume.pdf"
-            target="_blank">Resume</a></li>
+        <li class="nav-item"><button class="theme-button"><a class="nav-link" href="/assets/documents/Wei Lun Resume.pdf"
+            target="_blank">Resume</a></button></li>
+        <svg onclick="closeMenu()" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" fill="#193441"/></svg>
       </ul>
     </div>
+    <svg onclick="openMenu()" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" fill="#feb170"/></svg>
   </nav>
 
   <header class="header">
@@ -43,7 +46,7 @@
         ideas into code and solving problems. My goal is to be a <span class="theme-color highlight-line">Full Stack
           Developer</span> and I am excited to contribute my programming abilities to your success.</p>
       <div class="button-container">
-        <a class="nav-link theme-button" href="#">Contact Me!</a>
+        <button class="theme-button"><a class="nav-link" href="#">Contact Me!</a></button>
       </div>
     </div>
   </header>
@@ -231,7 +234,7 @@
         </div>
       </div>
       <div class="button-container">
-        <a class="nav-link theme-button" href="https://github.com/weilun320" target="_blank">See more</a>
+        <button class="theme-button"><a class="nav-link" href="https://github.com/weilun320" target="_blank">See more</a></button>
       </div>
     </section>
 

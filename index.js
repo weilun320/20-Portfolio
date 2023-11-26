@@ -1,3 +1,11 @@
+function openMenu() {
+  document.getElementById("side-menu").style.right = "0";
+}
+
+function closeMenu() {
+  document.getElementById("side-menu").style.right = "-200px";
+}
+
 function openTab(tabTitle) {  
   const tabContent = document.getElementById(tabTitle);
 

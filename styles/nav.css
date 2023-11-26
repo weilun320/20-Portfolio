@@ -3,7 +3,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 10px 4rem;
+  padding: 20px 4rem;
+  width: 100%;
+}
+
+.navbar svg {
+  display: none;
 }
 
 .nav-logo {
