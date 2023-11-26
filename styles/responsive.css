@@ -322,4 +322,18 @@
   .experience-card {
     padding: 30px 20px;
   }
+
+  /* work */
+  .work-container {
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+  }
+
+  .work-content {
+    padding: 10px 2rem;
+  }
+
+  .work-content > * {
+    margin: 16px 0;
+  }
 }
