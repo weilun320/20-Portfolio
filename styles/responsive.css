@@ -462,4 +462,14 @@
   .about-details-container {
     flex-basis: 100%;
   }
+
+  /* experience */
+  .experience-container {
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+  }
+
+  .experience-card {
+    padding: 30px;
+  }
 }
