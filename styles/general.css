@@ -16,7 +16,6 @@
 body {
   background-color: #193441;
   color: var(--text);
-  margin-bottom: 1000px;
 }
 
 .highlight-line {

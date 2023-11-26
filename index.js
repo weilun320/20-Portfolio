@@ -16,3 +16,5 @@ function openTab(tabTitle) {
   event.currentTarget.classList.add("title-active");
   tabContent.classList.add("content-active");
 }
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
