@@ -43,6 +43,10 @@
     font-size: 26px;
   }
 
+  .nav-logo {
+    font-size: 36px;
+  }
+
   .nav {
     background-color: var(--primary);
     height: 100vh;
@@ -99,7 +103,7 @@
 
   .header-container {
     margin: 0;
-    padding: 70px 40px;
+    padding: 80px 40px;
     width: 100%;
   }
 
@@ -153,5 +157,24 @@
 
   .experience-card {
     padding: 30px 20px;
+  }
+
+  /* work */
+  .work-container {
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+  }
+
+  .work-content {
+    font-size: 14px;
+    padding: 10px 2rem;
+  }
+
+  .work-content > * {
+    margin: 16px 0;
+  }
+
+  .work-content-title {
+    font-size: 20px;
   }
 }
