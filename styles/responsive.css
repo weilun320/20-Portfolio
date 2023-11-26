@@ -205,7 +205,7 @@
   }
   
   .main {
-    padding: 0 40px;
+    padding: 0 50px;
   }
 
   .section {
@@ -353,6 +353,18 @@
   .button-container {
     margin-top: 50px;
   }
+
+  .main {
+    padding: 0 70px;
+  }
+
+  .section {
+    padding: 1rem 0 2rem 0;
+  }
+
+  .section-title {
+    font-size: 44px;
+  }
   
   /* navbar */
   .navbar {
@@ -439,5 +451,15 @@
 
   .header-description {
     line-height: 24px;
+  }
+
+  /* about */
+  .about-image-container {
+    flex-basis: 50%;
+    margin-bottom: 30px;
+  }
+
+  .about-details-container {
+    flex-basis: 100%;
   }
 }
