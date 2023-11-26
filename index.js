@@ -26,3 +26,18 @@ function openTab(tabTitle) {
 }
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+
+let prevScrollPos = window.pageYOffset;
+
+window.onscroll = () => {
+  let currentScrollPos = window.pageYOffset;
+
+  if (prevScrollPos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  }
+  else {
+    document.getElementById("navbar").style.top = "-108px";
+  }
+
+  prevScrollPos = currentScrollPos;
+}
