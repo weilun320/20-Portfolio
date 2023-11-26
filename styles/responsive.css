@@ -167,7 +167,6 @@
 
   .work-content {
     font-size: 14px;
-    padding: 10px 2rem;
   }
 
   .work-content > * {
@@ -329,12 +328,8 @@
     padding-top: 2rem;
   }
 
-  .work-content {
-    padding: 10px 2rem;
-  }
-
   .work-content > * {
-    margin: 16px 0;
+    margin: 14px 0;
   }
 
   /* contact */
@@ -471,5 +466,19 @@
 
   .experience-card {
     padding: 30px;
+  }
+
+  /* work */
+  .work-container {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+  }
+
+  .work-content {
+    padding: 10px 2rem;
+  }
+
+  .work-content > * {
+    margin: 12px 0;
   }
 }
