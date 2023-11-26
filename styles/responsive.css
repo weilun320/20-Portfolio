@@ -198,7 +198,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 600px) {
   /* navbar */
   .navbar {
     margin: 0 auto;
@@ -211,7 +211,7 @@
   }
 
   .nav-logo {
-    font-size: 36px;
+    font-size: 40px;
   }
 
   .nav {
@@ -257,5 +257,32 @@
     position: absolute;
     right: 25px;
     top: 25px;
-  }  
+  }
+
+  /* header */
+  .header {
+    font-size: 16px;
+  }
+
+  .header-greeting {
+    font-size: 18px;
+  }
+
+  .header-container {
+    margin: 60px 0 0 0;
+    padding: 80px 40px;
+    width: 70%;
+  }
+
+  .header-title {
+    font-size: 50px;
+  }
+
+  .header-subtitle {
+    font-size: 28px;
+  }
+
+  .header-description {
+    line-height: 24px;
+  }
 }
