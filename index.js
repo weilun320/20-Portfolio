@@ -3,7 +3,7 @@ function openMenu() {
 }
 
 function closeMenu() {
-  document.getElementById("side-menu").style.right = "-200px";
+  document.getElementById("side-menu").style.right = "-300px";
 }
 
 function openTab(tabTitle) {  
