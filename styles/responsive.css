@@ -23,6 +23,14 @@
   .content-title {
     font-size: 18px;
   }
+
+  .content-period-location-container {
+    font-size: 14px;
+  }
+
+  .list-item {
+    font-size: 14px;
+  }
   
   /* navbar */
   .navbar {
@@ -135,5 +143,15 @@
 
   .content-certificate-link a {
     font-size: 14px;
+  }
+
+  /* experience */
+  .experience-container {
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+  }
+
+  .experience-card {
+    padding: 30px 20px;
   }
 }

@@ -1,7 +1,7 @@
 .experience-container {
   display: grid;
   gap: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: 1fr 1fr;
   padding-top: 4rem;
 }
 

@@ -85,7 +85,7 @@ body {
 .list-item {
   color: var(--text);
   list-style-position: inside;
-  margin-bottom: 14px;
+  margin-top: 14px;
 }
 
 .list-item::marker {
