@@ -336,4 +336,14 @@
   .work-content > * {
     margin: 16px 0;
   }
+
+  /* contact */
+  .contact-info-container {
+    flex-basis: 100%;
+  }
+
+  .contact-form-container {
+    flex-basis: 100%;
+  }
+
 }
