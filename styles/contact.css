@@ -76,3 +76,9 @@
 .form-button:hover {
   background-color: #ff9742;
 }
+
+#contact-response-message {
+  color: #26ff00;
+  display: block;
+  margin-top: 20px;
+}

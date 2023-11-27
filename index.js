@@ -41,3 +41,22 @@ window.onscroll = () => {
 
   prevScrollPos = currentScrollPos;
 }
+
+const scriptURL = "https://script.google.com/macros/s/AKfycbwuvRbvu2rNKwHQTSErmZdotrMvUVudK-EPufqkrXuzapB1WrQ-zJJHL6jc5AaQw2_i/exec";
+const form = document.forms["submit-to-google-sheet"];
+const responseMessage = document.getElementById("contact-response-message");
+
+form.addEventListener("submit", e => {
+  e.preventDefault();
+  fetch(scriptURL, { method: "POST", body: new FormData(form)})
+    .then(response => {
+      responseMessage.innerHTML = "Message sent successfully."
+
+      setTimeout(() => {
+        responseMessage.innerHTML = "";
+      }, 5000);
+
+      form.reset();
+    })
+    .catch(error => console.error("Error!", error.message));
+});
